@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    FILE * fp = fopen("mystory.txt", "r");
+    FILE * fp = fopen("datta.txt", "wt");
     char str[100];
 
     if (fp == NULL) {

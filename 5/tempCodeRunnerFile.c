@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    FILE * fp = fopen("mystory.txt", "wt");
+    FILE * fp = fopen("mystory.txt", "a");
 
     if (fp == NULL) {
         puts("파일 열기 실패");
